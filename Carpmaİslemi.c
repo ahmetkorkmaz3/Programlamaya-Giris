@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <conio.h>
 
-
-
 int main(void) {
 	
 	int sayi,carpim,i;
