@@ -13,17 +13,17 @@ void mukemmelSayi(int deger){
 		}
 	}
 	if(toplam == deger){
-		printf("%d sayısı bir mükemmel sayıdır. ", deger);
+		printf("%d sayÄ±sÄ± bir mÃ¼kemmel sayÄ±dÄ±r. ", deger);
 	}
 	else{
-		printf("%d sayısı mükemmel sayı değildir.", deger);
+		printf("%d sayÄ±sÄ± mÃ¼kemmel sayÄ± deÄŸildir.", deger);
 	}
 	
 }
 
 int main() {
 	int sayi;
-	printf("Bir sayı giriniz :");
+	printf("Bir sayÄ± giriniz :");
 	scanf("%d",&sayi);
 	mukemmelSayi(sayi);
 	getch();
